@@ -1,0 +1,17 @@
+{
+    "name": "pool-pal/app",
+    "description": "Pool Pal Application",
+    "type": "project",
+    "require": {
+        "php": ">=7.2",
+        "phpmailer/phpmailer": "^6.10",
+        "twilio/sdk": "*",
+        "razorpay/razorpay": "^2.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

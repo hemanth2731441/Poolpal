@@ -1,0 +1,37 @@
+# Environment & credentials
+.env
+
+# Composer dependencies
+/vendor/
+/PHPMailer/
+
+# Uploads (user-generated content)
+/uploads/profiles/*
+/uploads/drivers/*
+/uploads/banners/*
+!/uploads/profiles/.gitkeep
+!/uploads/drivers/.gitkeep
+!/uploads/banners/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+php_error_log
+/logs/
+
+# Test/debug files
+test_*.php
+debug_*.php
+profile_debug.php
+profile_image_test.php
+check_*.php
+google_login_test.php
+monarx-analyzer.php

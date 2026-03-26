@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://poolpal.in/db.php?sitemap.xml
+Sitemap: https://poolpal.in/sitemap.xml
