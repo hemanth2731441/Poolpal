@@ -1,205 +1,273 @@
-<?php include 'nav.php';
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Receipt</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<?php include 'nav_new.php'; ?>
 
-    <link rel="stylesheet" href="css/animated-bg.css" />
-</head>
-<body class="animated-background-wrapper">
-<?php include_once 'includes/animated-background.php'; ?>
-<div class="main-content">
-  <div class="sep">
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="home">
     <div class="container">
-        <div class="header">Payment Receipt</div>
-        <div class="receipt-box">
-            <i class="fas fa-receipt"></i>
-            <div>
-                <strong>Receipt #RS-78945612</strong><br>
-                Issued on May 15, 2023
-            </div>
+      <div class="hero-content">
+        <div class="hero-text reveal">
+          <div class="hero-badge">
+            <i class="fas fa-sparkles"></i>
+            <span>Now available on Android & iOS</span>
+          </div>
+          <h1 class="hero-title">
+            Share Rides,<br/>
+            <span class="highlight gradient-text">Save the Planet</span>
+          </h1>
+          <p class="hero-subtitle">
+            PoolPal connects drivers and passengers for affordable, eco-friendly carpooling.
+            Fewer cars on the road. More money in your pocket. A greener tomorrow.
+          </p>
+          <div class="hero-buttons">
+            <a href="#download" class="btn-primary">
+              <i class="fas fa-download"></i> Download the App
+            </a>
+            <a href="aboutus.php" class="btn-secondary">
+              <i class="fas fa-info-circle"></i> Learn More
+            </a>
+          </div>
         </div>
-        
-        <div class="section">
-            <div class="section-title">Trip Summary</div>
-            <div class="details"><span><i class="fas fa-route icon"></i> Route</span> <span>San Francisco to Los Angeles</span></div>
-            <div class="details"><span><i class="fas fa-calendar-alt icon"></i> Date</span> <span>May 15, 2023</span></div>
-            <div class="details"><span><i class="fas fa-bus icon"></i> Departure</span> <span>San Francisco Transit Center, 2:00 PM</span></div>
-            <div class="details"><span><i class="fas fa-flag icon"></i> Arrival</span> <span>Los Angeles Union Station, 8:30 PM</span></div>
-        </div>
-        
-        <div class="section">
-            <div class="section-title">Payment Details</div>
-            <div class="details"><span><i class="fas fa-dollar-sign icon"></i> Base Fare</span> <span>₹435.00</span></div>
-            <div class="details"><span><i class="fas fa-receipt icon"></i> Service Fee</span> <span>₹930.50</span></div>
-            <div class="details"><span><i class="fas fa-shield-alt icon"></i> Insurance</span> <span>₹291.00</span></div>
-            <div class="details"><span><i class="fas fa-wallet icon"></i> <strong>Total Paid</strong></span> <span><strong>₹1049.50</strong></span></div>
-        </div>
-        
-        <div class="section">
-            <div class="section-title">Payment Method</div>
-            <div class="profile-photo">
-              <div class="photo-box">
-                <div class="icon-container">
-                  <i class="fas fa-credit-card icon"></i>
-                </div>
-                <div class="text-content">
-                  <span class="title">Visa •••• 3456</span>
-                  <span class="subtitle">Charged on May 15, 2023</span>
-                </div>
+
+        <div class="hero-visual reveal delay-2">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-glow"></div>
+            <img src="images/logo/logo-new.png" alt="PoolPal — Smart Carpooling" />
+
+            <!-- Floating stat cards -->
+            <div class="hero-stat stat-1" style="animation-delay: 0s;">
+              <div class="hero-stat-icon gold"><i class="fas fa-users"></i></div>
+              <div class="hero-stat-text">
+                <strong>50K+</strong>
+                <span>Active Riders</span>
               </div>
             </div>
-        </div>
-        
-        <div class="section">
-            <div class="section-title">Passenger Information</div>
-            <div class="profile-photo">
-              <div class="photo-box">
-                <div class="icon-container">
-                  <i class="fas fa-user-circle icon"></i>
-                </div>
-                <div class="text-content">
-                  <span class="title">Your Name</span>
-                  <span class="subtitle">your.email@example.com • +91 9999999999</span>
-                </div>
+
+            <div class="hero-stat stat-2" style="animation-delay: -2s;">
+              <div class="hero-stat-icon green"><i class="fas fa-leaf"></i></div>
+              <div class="hero-stat-text">
+                <strong>120 Tons</strong>
+                <span>CO₂ Saved</span>
               </div>
             </div>
+
+            <div class="hero-stat stat-3" style="animation-delay: -4s;">
+              <div class="hero-stat-icon blue"><i class="fas fa-route"></i></div>
+              <div class="hero-stat-text">
+                <strong>1M+</strong>
+                <span>Rides Completed</span>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <div class="footer">
-            <button class="btn btn-primary">Back to Dashboard</button>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ====== FEATURES ====== -->
+  <section class="features section-padding" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><i class="fas fa-star"></i> Why PoolPal</div>
+        <h2 class="section-title">Everything You Need in<br/><span class="gradient-text">One App</span></h2>
+        <p class="section-desc">Whether you're a daily commuter or a weekend traveler, PoolPal makes carpooling effortless, safe, and rewarding.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card reveal delay-1">
+          <div class="feature-icon icon-gold"><i class="fas fa-route"></i></div>
+          <h3 class="feature-title">Smart Matching</h3>
+          <p class="feature-desc">Our algorithm pairs you with the best rides based on route, time, and preferences — so you always get a perfect match.</p>
         </div>
+
+        <div class="feature-card reveal delay-2">
+          <div class="feature-icon icon-green"><i class="fas fa-shield-halved"></i></div>
+          <h3 class="feature-title">Verified & Safe</h3>
+          <p class="feature-desc">Every driver is verified with ID and license checks. Ride with confidence knowing your safety comes first.</p>
+        </div>
+
+        <div class="feature-card reveal delay-3">
+          <div class="feature-icon icon-blue"><i class="fas fa-wallet"></i></div>
+          <h3 class="feature-title">Save Up to 60%</h3>
+          <p class="feature-desc">Split fuel costs and cut your commute expenses dramatically. More shared rides, more savings every month.</p>
+        </div>
+
+        <div class="feature-card reveal delay-1">
+          <div class="feature-icon icon-purple"><i class="fas fa-leaf"></i></div>
+          <h3 class="feature-title">Eco-Friendly</h3>
+          <p class="feature-desc">Each shared ride reduces carbon emissions. Track your green impact and contribute to a sustainable future.</p>
+        </div>
+
+        <div class="feature-card reveal delay-2">
+          <div class="feature-icon icon-rose"><i class="fas fa-credit-card"></i></div>
+          <h3 class="feature-title">Secure Payments</h3>
+          <p class="feature-desc">Pay seamlessly through UPI, cards, wallets, or net banking. Every transaction is encrypted and protected.</p>
+        </div>
+
+        <div class="feature-card reveal delay-3">
+          <div class="feature-icon icon-teal"><i class="fas fa-bell"></i></div>
+          <h3 class="feature-title">Real-Time Updates</h3>
+          <p class="feature-desc">Get instant notifications for ride matches, booking confirmations, and trip updates — never miss a ride.</p>
+        </div>
+      </div>
     </div>
-    <style>
-        .sep {
-            font-family: 'Inter', sans-serif;
-            background-color: #f9f9fb;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            background: white;
-            width: 600px;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .header {
-            font-size: 22px;
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
-        .receipt-box {
-            background: #f1f1f9;
-            padding: 15px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-        }
-        .receipt-box i {
-            margin-right: 10px;
-            font-size: 18px;
-            color: #6c63ff;
-        }
-        .section {
-            margin-top: 20px;
-        }
-        .section-title {
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-        .details {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 0;
-            border-bottom: 1px solid #ddd;
-            font-size: 14px;
-        }
-        .details:last-child {
-            border-bottom: none;
-        }
-        .icon {
-            margin-right: 10px;
-            color: #6c63ff;
-        }
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 30px;
-        }
-        .btn {
-            padding: 12px 20px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 14px;
-        }
-        .btn-primary {
-            background-color: #6c63ff;
-            color: white;
-        }
-        .btn-secondary {
-            background-color: #e0e0e0;
-            color: black;
-        }
-        .profile-photo {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: white;
-      padding: 0px;
-      border-radius: 8px;
-      margin-bottom: 8px;
-    }
+  </section>
 
-    .photo-box {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+  <!-- ====== APP SHOWCASE ====== -->
+  <section class="app-showcase section-padding" id="download">
+    <div class="container">
+      <div class="app-content">
+        <div class="app-text-side">
+          <div class="section-label reveal"><i class="fas fa-mobile-alt"></i> Mobile App</div>
+          <h2 class="section-title reveal delay-1">Your Rides,<br/><span style="color: var(--primary-light);">Right in Your Pocket</span></h2>
+          <p class="section-desc reveal delay-2">Download the PoolPal app to find rides, post trips, make payments, and track your journeys — all from your phone.</p>
 
-    .photo-box .icon-container {
-      width: 40px;
-      height: 40px;
-      background: #f6f5ff; /* Light purple background */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 12px;
-    }
+          <div class="app-features-list">
+            <div class="app-feature-item reveal delay-1">
+              <i class="fas fa-search-location"></i>
+              <span>Search & book rides in seconds</span>
+            </div>
+            <div class="app-feature-item reveal delay-2">
+              <i class="fas fa-car-side"></i>
+              <span>Post your own trips as a driver</span>
+            </div>
+            <div class="app-feature-item reveal delay-3">
+              <i class="fas fa-map-marked-alt"></i>
+              <span>Live GPS tracking for every ride</span>
+            </div>
+            <div class="app-feature-item reveal delay-4">
+              <i class="fas fa-star"></i>
+              <span>Rate and review your co-travelers</span>
+            </div>
+          </div>
 
-    .photo-box i {
-      font-size: 18px;
-      color: #6C49F4; /* Purple color */
-    }
-    .text-content {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
+          <div class="download-buttons reveal delay-3">
+            <a href="#" class="download-btn">
+              <i class="fab fa-google-play"></i>
+              <div class="btn-label">
+                <span class="btn-small">Get it on</span>
+                <span class="btn-big">Google Play</span>
+              </div>
+            </a>
+            <a href="#" class="download-btn">
+              <i class="fab fa-apple"></i>
+              <div class="btn-label">
+                <span class="btn-small">Download on the</span>
+                <span class="btn-big">App Store</span>
+              </div>
+            </a>
+          </div>
+        </div>
 
-    .text-content .title {
-      font-size: 14px;
-      display: flex;
-      color: #000;
-    }
-
-    .text-content .subtitle {
-      font-size: 12px;
-      color: gray;
-    }
-    </style>
+        <div class="app-visual-side reveal-scale delay-2">
+          <div class="phone-glow phone-glow-1"></div>
+          <div class="phone-glow phone-glow-2"></div>
+          <div class="app-phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <img src="images/logo/logo-new.png" alt="PoolPal App" class="phone-logo" />
+              <div class="phone-screen-text">
+                <h4>Welcome to PoolPal</h4>
+                <p>Smart carpooling for<br/>smarter commuters</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div></body>
-</html>
+  </section>
+
+  <!-- ====== STATS ====== -->
+  <section class="stats-section section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><i class="fas fa-chart-line"></i> Our Impact</div>
+        <h2 class="section-title">Numbers That<br/><span class="gradient-text">Speak Volumes</span></h2>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card reveal delay-1">
+          <div class="stat-number" data-target="50000" data-suffix="+">0</div>
+          <div class="stat-label">Happy Riders</div>
+        </div>
+        <div class="stat-card reveal delay-2">
+          <div class="stat-number" data-target="1000000" data-suffix="+">0</div>
+          <div class="stat-label">Rides Completed</div>
+        </div>
+        <div class="stat-card reveal delay-3">
+          <div class="stat-number" data-target="120" data-suffix=" Tons">0</div>
+          <div class="stat-label">CO₂ Emissions Saved</div>
+        </div>
+        <div class="stat-card reveal delay-4">
+          <div class="stat-number" data-target="200" data-suffix="+">0</div>
+          <div class="stat-label">Cities Covered</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="cta-section section-padding">
+    <div class="container">
+      <div class="cta-card reveal-scale">
+        <h2 class="cta-title">Ready to Ride Smarter?</h2>
+        <p class="cta-desc">Download PoolPal today and join thousands of commuters saving money, time, and the environment.</p>
+        <div class="cta-buttons">
+          <a href="#download" class="btn-dark">
+            <i class="fas fa-download"></i> Get the App
+          </a>
+          <a href="aboutus.php" class="btn-outline-dark">
+            <i class="fas fa-users"></i> Meet the Team
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Counter animation -->
+  <script>
+  (function() {
+    function animateCounter(el) {
+      const target = parseInt(el.dataset.target);
+      const suffix = el.dataset.suffix || '';
+      const duration = 2000;
+      const start = performance.now();
+
+      function update(now) {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.floor(eased * target);
+
+        if (target >= 1000000) {
+          el.textContent = (current / 1000000).toFixed(1) + 'M' + suffix.replace('+', '+');
+        } else if (target >= 10000) {
+          el.textContent = (current / 1000).toFixed(0) + 'K' + suffix;
+        } else {
+          el.textContent = current + suffix;
+        }
+
+        if (progress < 1) requestAnimationFrame(update);
+      }
+
+      requestAnimationFrame(update);
+    }
+
+    const counters = document.querySelectorAll('.stat-number[data-target]');
+    const counterObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounter(entry.target);
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    counters.forEach(c => counterObserver.observe(c));
+  })();
+  </script>
+
+<?php include 'footer_new.php'; ?>

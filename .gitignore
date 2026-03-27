@@ -1,17 +1,16 @@
 # Environment & credentials
 .env
+.env.example
+
+# Archived old service files
+/_archived/
 
 # Composer dependencies
 /vendor/
 /PHPMailer/
 
 # Uploads (user-generated content)
-/uploads/profiles/*
-/uploads/drivers/*
-/uploads/banners/*
-!/uploads/profiles/.gitkeep
-!/uploads/drivers/.gitkeep
-!/uploads/banners/.gitkeep
+/uploads/
 
 # IDE & OS
 .vscode/

@@ -1,1 +1,0 @@
-ALTER TABLE cancelled_bookings ADD COLUMN cancellation_reason TEXT AFTER price; 
