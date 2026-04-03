@@ -1,4 +1,4 @@
-<?php include 'nav_new.php'; ?>
+<?php include 'nav.php'; ?>
 
   <!-- ====== ABOUT HERO ====== -->
   <section class="about-hero">
@@ -157,4 +157,4 @@
     </div>
   </section>
 
-<?php include 'footer_new.php'; ?>
+<?php include 'footer.php'; ?>

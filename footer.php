@@ -5,7 +5,7 @@
       <!-- Brand -->
       <div class="footer-brand footer-col">
         <a href="fpage.php" class="pp-logo-link">
-          <img src="images/logo/logo-new.png" alt="PoolPal" class="pp-logo-img" />
+          <img src="images/logo/logo.jpeg" alt="PoolPal" class="pp-logo-img" />
         </a>
         <p>Connecting commuters for a greener tomorrow. Share rides, save costs, and reduce your carbon footprint — all from our mobile app.</p>
         <div class="footer-social">
@@ -22,8 +22,9 @@
         <h4 class="footer-heading">Quick Links</h4>
         <ul class="footer-links">
           <li><a href="fpage.php">Home</a></li>
+          <li><a href="services.php">Services</a></li>
           <li><a href="aboutus.php">About Us</a></li>
-          <li><a href="#download">Get the App</a></li>
+          <li><a href="fpage.php#download">Get the App</a></li>
         </ul>
       </div>
 

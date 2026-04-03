@@ -18,13 +18,14 @@
 <header class="pp-header" id="ppHeader">
   <nav class="pp-nav">
     <a href="fpage.php" class="pp-logo-link">
-      <img src="images/logo/logo-new.png" alt="PoolPal" class="pp-logo-img" />
+      <img src="images/logo/logo.jpeg" alt="PoolPal" class="pp-logo-img" />
     </a>
 
     <div class="pp-nav-links">
       <a href="fpage.php" class="pp-nav-link"><i class="fas fa-home"></i> Home</a>
+      <a href="services.php" class="pp-nav-link"><i class="fas fa-concierge-bell"></i> Services</a>
       <a href="aboutus.php" class="pp-nav-link"><i class="fas fa-users"></i> About Us</a>
-      <a href="#download" class="pp-nav-cta"><i class="fas fa-mobile-alt"></i> Get the App</a>
+      <a href="fpage.php#download" class="pp-nav-cta"><i class="fas fa-mobile-alt"></i> Get the App</a>
     </div>
 
     <button class="pp-hamburger" id="ppHamburger" aria-label="Open menu">
@@ -42,8 +43,9 @@
 <div class="pp-mobile-menu" id="ppMobileMenu">
   <button class="pp-mobile-close" id="ppMobileClose" aria-label="Close menu"><i class="fas fa-times"></i></button>
   <a href="fpage.php" class="pp-nav-link"><i class="fas fa-home"></i> Home</a>
+  <a href="services.php" class="pp-nav-link"><i class="fas fa-concierge-bell"></i> Services</a>
   <a href="aboutus.php" class="pp-nav-link"><i class="fas fa-users"></i> About Us</a>
-  <a href="#download" class="pp-nav-cta" style="margin-top: 16px; width: 100%; justify-content: center;"><i class="fas fa-mobile-alt"></i> Get the App</a>
+  <a href="fpage.php#download" class="pp-nav-cta" style="margin-top: 16px; width: 100%; justify-content: center;"><i class="fas fa-mobile-alt"></i> Get the App</a>
 </div>
 
 <script>

@@ -1,4 +1,4 @@
-<?php include 'nav_new.php'; ?>
+<?php include 'nav.php'; ?>
 
   <!-- ====== HERO ====== -->
   <section class="hero" id="home">
@@ -30,7 +30,7 @@
         <div class="hero-visual reveal delay-2">
           <div class="hero-image-wrapper">
             <div class="hero-image-glow"></div>
-            <img src="images/logo/logo-new.png" alt="PoolPal — Smart Carpooling" />
+            <img src="images/logo/logo.jpeg" alt="PoolPal — Smart Carpooling" />
 
             <!-- Floating stat cards -->
             <div class="hero-stat stat-1" style="animation-delay: 0s;">
@@ -61,10 +61,6 @@
       </div>
     </div>
 
-    <div class="hero-scroll">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
   </section>
 
   <!-- ====== FEATURES ====== -->
@@ -112,6 +108,48 @@
           <h3 class="feature-title">Real-Time Updates</h3>
           <p class="feature-desc">Get instant notifications for ride matches, booking confirmations, and trip updates — never miss a ride.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES TEASER ====== -->
+  <section class="svc-teaser section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><i class="fas fa-concierge-bell"></i> What We Offer</div>
+        <h2 class="section-title">More Than Just<br/><span class="gradient-text">Carpooling</span></h2>
+        <p class="section-desc">From taxi rides to goods transport, pilgrimage travel to hotel stays — PoolPal is your all-in-one mobility platform.</p>
+      </div>
+
+      <div class="svc-teaser-grid">
+        <div class="svc-teaser-item reveal delay-1">
+          <div class="svc-teaser-icon"><i class="fas fa-taxi"></i></div>
+          <h4>Taxi Booking</h4>
+        </div>
+        <div class="svc-teaser-item reveal delay-1">
+          <div class="svc-teaser-icon"><i class="fas fa-truck"></i></div>
+          <h4>Goods Transport</h4>
+        </div>
+        <div class="svc-teaser-item reveal delay-2">
+          <div class="svc-teaser-icon"><i class="fas fa-car-side"></i></div>
+          <h4>PoolPal Dosti</h4>
+        </div>
+        <div class="svc-teaser-item reveal delay-2">
+          <div class="svc-teaser-icon"><i class="fas fa-bus-alt"></i></div>
+          <h4>Bus Booking</h4>
+        </div>
+        <div class="svc-teaser-item reveal delay-3">
+          <div class="svc-teaser-icon"><i class="fas fa-om"></i></div>
+          <h4>Pool Yatra</h4>
+        </div>
+        <div class="svc-teaser-item reveal delay-3">
+          <div class="svc-teaser-icon"><i class="fas fa-hotel"></i></div>
+          <h4>Hotel Booking</h4>
+        </div>
+      </div>
+
+      <div class="svc-teaser-cta reveal delay-2">
+        <a href="services.php" class="btn-primary"><i class="fas fa-arrow-right"></i> Explore All Services</a>
       </div>
     </div>
   </section>
@@ -168,7 +206,7 @@
           <div class="app-phone-mockup">
             <div class="phone-notch"></div>
             <div class="phone-screen">
-              <img src="images/logo/logo-new.png" alt="PoolPal App" class="phone-logo" />
+              <img src="images/logo/logo.jpeg" alt="PoolPal App" class="phone-logo" />
               <div class="phone-screen-text">
                 <h4>Welcome to PoolPal</h4>
                 <p>Smart carpooling for<br/>smarter commuters</p>
@@ -270,4 +308,4 @@
   })();
   </script>
 
-<?php include 'footer_new.php'; ?>
+<?php include 'footer.php'; ?>
