@@ -1,1 +1,23 @@
 DirectoryIndex fpage.php
+
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.poolpal\.in [NC]
+RewriteRule ^(.*)$ https://poolpal.in/$1 [L,R=301]
+
+# Block access to archived files
+<IfModule mod_rewrite.c>
+  RewriteRule ^_archived/ - [F,L]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

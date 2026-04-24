@@ -1,4 +1,10 @@
-<?php include 'nav.php'; ?>
+<?php
+$page_title = 'About Us — Meet the Team Behind PoolPal | Our Mission & Story';
+$page_description = 'Learn about PoolPal, India\'s smart carpooling platform. Meet our founding team, discover our mission to make travel affordable, eco-friendly, and accessible for everyone.';
+$page_keywords = 'about poolpal, poolpal team, poolpal founders, carpooling startup india, macgInfotech, ridesharing company, poolpal mission';
+$page_canonical = 'https://poolpal.in/aboutus.php';
+include 'nav.php';
+?>
 
   <!-- ====== ABOUT HERO ====== -->
   <section class="about-hero">

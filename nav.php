@@ -3,7 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PoolPal — Smart Carpooling</title>
+  <title><?php echo isset($page_title) ? $page_title : 'PoolPal — Smart Carpooling & Ridesharing Platform in India'; ?></title>
+  <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'PoolPal is India\'s smart carpooling and ridesharing platform. Book taxis, share rides, transport goods, plan pilgrimages, and book hotels — all from one app. Save money, reduce traffic, go green.'; ?>" />
+  <meta name="keywords" content="<?php echo isset($page_keywords) ? $page_keywords : 'poolpal, carpooling india, ridesharing, taxi booking, shared rides, bike taxi, auto rickshaw, goods transport, bus booking, hotel booking, pool yatra, eco-friendly travel'; ?>" />
+  <meta name="author" content="MacGInfotech" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="<?php echo isset($page_canonical) ? $page_canonical : 'https://poolpal.in/'; ?>" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<?php echo isset($page_canonical) ? $page_canonical : 'https://poolpal.in/'; ?>" />
+  <meta property="og:title" content="<?php echo isset($page_title) ? $page_title : 'PoolPal — Smart Carpooling & Ridesharing Platform in India'; ?>" />
+  <meta property="og:description" content="<?php echo isset($page_description) ? $page_description : 'PoolPal is India\'s smart carpooling and ridesharing platform. Book rides, share trips, save money, and go green.'; ?>" />
+  <meta property="og:image" content="https://poolpal.in/images/logo/logo.jpeg" />
+  <meta property="og:site_name" content="PoolPal" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<?php echo isset($page_title) ? $page_title : 'PoolPal — Smart Carpooling & Ridesharing'; ?>" />
+  <meta name="twitter:description" content="<?php echo isset($page_description) ? $page_description : 'Book rides, share trips, save money. India\'s all-in-one mobility platform.'; ?>" />
+  <meta name="twitter:image" content="https://poolpal.in/images/logo/logo.jpeg" />
+
   <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />

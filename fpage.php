@@ -1,4 +1,56 @@
-<?php include 'nav.php'; ?>
+<?php
+$page_title = 'PoolPal — India\'s Smart Carpooling & Ridesharing Platform | Book Rides, Share Trips';
+$page_description = 'PoolPal connects drivers and passengers for affordable, eco-friendly carpooling in India. Book taxis, share rides, transport goods, plan pilgrimages, and book hotels — all from one app.';
+$page_keywords = 'poolpal, carpooling india, ridesharing platform, taxi booking, shared rides, bike taxi, auto rickshaw booking, eco-friendly travel, save money commute, poolpal.in';
+$page_canonical = 'https://poolpal.in/';
+include 'nav.php';
+?>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PoolPal",
+  "url": "https://poolpal.in",
+  "logo": "https://poolpal.in/images/logo/logo.jpeg",
+  "description": "India's smart carpooling and ridesharing platform. Book taxis, share rides, transport goods, and more.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ramaraonagar, Motinagar, Balanagar Mandal",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "postalCode": "500018",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9948434347",
+    "contactType": "customer service",
+    "email": "support@poolpal.com"
+  },
+  "sameAs": [
+    "https://www.facebook.com/poolpal",
+    "https://www.instagram.com/poolpal",
+    "https://www.linkedin.com/company/poolpal",
+    "https://x.com/poolpal",
+    "https://www.youtube.com/@poolpal"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "PoolPal",
+  "url": "https://poolpal.in",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://poolpal.in/services.php?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
   <!-- ====== HERO ====== -->
   <section class="hero" id="home">

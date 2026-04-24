@@ -1,4 +1,28 @@
-<?php include 'nav.php'; ?>
+<?php
+$page_title = 'Our Services — Taxi, Bus, Carpooling, Goods Transport, Hotels | PoolPal';
+$page_description = 'Explore PoolPal services: taxi booking, goods transportation, carpooling (PoolPal Dosti), bus tickets, pilgrimage travel (Pool Yatra), and hotel booking. All-in-one travel app for India.';
+$page_keywords = 'poolpal services, taxi booking india, goods transport, carpooling, bus ticket booking, pilgrimage travel, hotel booking, pool yatra, poolpal dosti, auto rickshaw';
+$page_canonical = 'https://poolpal.in/services.php';
+include 'nav.php';
+?>
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "PoolPal Services",
+  "description": "All services offered by PoolPal — India's all-in-one mobility platform",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Taxi Booking", "description": "Book bikes, autos, and cars instantly for fast, safe, and affordable travel."},
+    {"@type": "ListItem", "position": 2, "name": "Goods & Transportation", "description": "Reliable goods delivery with two-wheelers, tempos, mini trucks, and heavy trucks."},
+    {"@type": "ListItem", "position": 3, "name": "PoolPal Dosti (Carpooling)", "description": "Share rides with co-travelers. Split costs, reduce traffic and emissions."},
+    {"@type": "ListItem", "position": 4, "name": "Bus Ticket Booking", "description": "Book mini bus, semi-sleeper, sleeper, and AC luxury buses for group travel."},
+    {"@type": "ListItem", "position": 5, "name": "Pool Yatra", "description": "Safe travel to pilgrimage sites with hotel bookings and local attractions."},
+    {"@type": "ListItem", "position": 6, "name": "Hotel Booking", "description": "Find and book nearby hotels, homestays, and dharamshalas at the best prices."}
+  ]
+}
+</script>
 
   <!-- ====== SERVICES HERO ====== -->
   <section class="svc-hero">

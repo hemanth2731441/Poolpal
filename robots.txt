@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://poolpal.in/db.php?sitemap.xml
+Disallow: /_archived/
+
 Sitemap: https://poolpal.in/sitemap.xml
