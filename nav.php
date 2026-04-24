@@ -25,7 +25,9 @@
   <meta name="twitter:description" content="<?php echo isset($page_description) ? $page_description : 'Book rides, share trips, save money. India\'s all-in-one mobility platform.'; ?>" />
   <meta name="twitter:image" content="https://poolpal.in/images/logo/logo.jpeg" />
 
-  <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg" />
+  <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/poolpal-marketing.css" />
