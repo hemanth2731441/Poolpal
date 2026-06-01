@@ -23,7 +23,7 @@ include 'nav.php';
         <!-- Founder 1 -->
         <div class="founder-row reveal">
           <div class="founder-photo">
-            <div class="founder-img-wrap">
+            <div class="founder-img-wrap" style="--founder-focus: 50% 25%;">
               <img src="images/founder1.jpeg" alt="Singheetam Raghupathi Yadav" onerror="this.src='images/default.jpg'" />
             </div>
             <h3 class="founder-name">Singheetam Raghupathi Yadav</h3>
