@@ -1878,11 +1878,12 @@ img {
   box-shadow: var(--shadow-md);
   position: relative;
   z-index: 1;
+  transform: scale(var(--founder-scale, 1));
   transition: transform var(--transition-smooth);
 }
 
 .founder-row:hover .founder-img-wrap img {
-  transform: scale(1.05);
+  transform: scale(calc(var(--founder-scale, 1) + 0.05));
 }
 
 .founder-name {
