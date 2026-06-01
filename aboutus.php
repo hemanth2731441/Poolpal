@@ -24,7 +24,7 @@ include 'nav.php';
         <div class="founder-row reveal">
           <div class="founder-photo">
             <div class="founder-img-wrap" style="--founder-focus: 50% 18%;">
-              <img src="images/founder1.jpeg" alt="Singheetam Raghupathi Yadav" onerror="this.src='images/default.jpg'" />
+              <img src="images/founder1-optimized.jpg" alt="Singheetam Raghupathi Yadav" onerror="this.src='images/default.jpg'" />
             </div>
             <h3 class="founder-name">Singheetam Raghupathi Yadav</h3>
             <p class="founder-role">Founder & CEO</p>
