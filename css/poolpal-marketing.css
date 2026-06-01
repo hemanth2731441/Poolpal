@@ -1871,19 +1871,18 @@ img {
 .founder-img-wrap img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: var(--founder-fit, cover);
   object-position: var(--founder-focus, 50% 50%);
   border-radius: 50%;
   border: 4px solid var(--white);
   box-shadow: var(--shadow-md);
   position: relative;
   z-index: 1;
-  transform: scale(var(--founder-scale, 1));
   transition: transform var(--transition-smooth);
 }
 
 .founder-row:hover .founder-img-wrap img {
-  transform: scale(calc(var(--founder-scale, 1) + 0.05));
+  transform: scale(1.03);
 }
 
 .founder-name {
