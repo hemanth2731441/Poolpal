@@ -60,7 +60,7 @@
     <div class="footer-divider"></div>
 
     <div class="footer-bottom">
-      <span>&copy; 2025 <strong>Poolpal Private Limited</strong> &middot; A MacGInfotech venture. All rights reserved.</span>
+      <span>&copy; 2025 <strong>Poolpal Private Limited</strong>. All rights reserved.</span>
       <span>Made with <i class="fas fa-heart" style="color: var(--primary); margin: 0 4px;"></i> in India</span>
     </div>
   </div>

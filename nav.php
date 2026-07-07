@@ -6,7 +6,7 @@
   <title><?php echo isset($page_title) ? $page_title : 'PoolPal — Smart Carpooling & Ridesharing Platform in India'; ?></title>
   <meta name="description" content="<?php echo isset($page_description) ? $page_description : 'PoolPal is India\'s smart carpooling and ridesharing platform. Book taxis, share rides, transport goods, plan pilgrimages, and book hotels — all from one app. Save money, reduce traffic, go green.'; ?>" />
   <meta name="keywords" content="<?php echo isset($page_keywords) ? $page_keywords : 'poolpal, carpooling india, ridesharing, taxi booking, shared rides, bike taxi, auto rickshaw, goods transport, bus booking, hotel booking, pool yatra, eco-friendly travel'; ?>" />
-  <meta name="author" content="MacGInfotech" />
+  <meta name="author" content="Poolpal Private Limited" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="<?php echo isset($page_canonical) ? $page_canonical : 'https://poolpal.in/'; ?>" />
 
