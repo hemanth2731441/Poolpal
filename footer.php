@@ -4,9 +4,10 @@
     <div class="footer-grid">
       <!-- Brand -->
       <div class="footer-brand footer-col">
-        <a href="fpage.php" class="pp-logo-link">
-          <img src="images/logo/logo.jpeg" alt="PoolPal" class="pp-logo-img" />
+        <a href="fpage.php" class="pp-logo-link" aria-label="Poolpal Private Limited — Home">
+          <img src="images/logo/logo.jpeg" alt="Poolpal Private Limited" class="pp-logo-img" />
         </a>
+        <p style="margin:8px 0 6px;font-weight:700;color:var(--text-primary,#0f172a);font-size:15px;letter-spacing:0.2px;">Poolpal Private Limited</p>
         <p>Connecting commuters for a greener tomorrow. Share rides, save costs, and reduce your carbon footprint — all from our mobile app.</p>
         <div class="footer-social">
           <a href="https://www.facebook.com/poolpal" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -59,7 +60,7 @@
     <div class="footer-divider"></div>
 
     <div class="footer-bottom">
-      <span>&copy; 2025 MacGInfotech. All rights reserved.</span>
+      <span>&copy; 2025 <strong>Poolpal Private Limited</strong> &middot; A MacGInfotech venture. All rights reserved.</span>
       <span>Made with <i class="fas fa-heart" style="color: var(--primary); margin: 0 4px;"></i> in India</span>
     </div>
   </div>

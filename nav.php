@@ -37,11 +37,19 @@
 <!-- Floating Particles -->
 <div class="particle-bg" id="particleBg"></div>
 
+<!-- Legal / Corporate Utility Bar -->
+<div class="pp-legal-bar" style="background:#0f172a;color:#e2e8f0;font-family:'Inter',sans-serif;font-size:12px;font-weight:500;letter-spacing:0.3px;padding:6px 24px;text-align:center;position:relative;z-index:1001;">
+  <span style="display:inline-flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;">
+    <i class="fas fa-building" style="color:#60a5fa;font-size:11px;"></i>
+    <span>Operated by <strong style="color:#fff;">Poolpal Private Limited</strong></span>
+  </span>
+</div>
+
 <!-- Header -->
 <header class="pp-header" id="ppHeader">
   <nav class="pp-nav">
-    <a href="fpage.php" class="pp-logo-link">
-      <img src="images/logo/logo.jpeg" alt="PoolPal" class="pp-logo-img" />
+    <a href="fpage.php" class="pp-logo-link" aria-label="Poolpal Private Limited — Home">
+      <img src="images/logo/logo.jpeg" alt="Poolpal Private Limited" class="pp-logo-img" />
     </a>
 
     <div class="pp-nav-links">
